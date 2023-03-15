@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>OpenCV JavaScript</title>
+    <script defer src="opencv.js"></script>
+    <script defer src="utils_mp.js" crossorigin="anonymous"></script>
+    <script defer src="control_utils.js" crossorigin="anonymous"></script>
+    <script defer src="drawing_utils.js" crossorigin="anonymous"></script>
+    <script defer src="face_mesh.js" crossorigin="anonymous"></script>
+    <script defer src="script.js" ></script>
+    <script defer src="script_cv.js" ></script>
+    <style>
+        video {
+        height: auto;
+        width: 600;
+    }
+    </style>
+</head>
+
+
+<body>
+    
+    <div style="width: 100%;">
+        <h3 style="text-align: center;">Blur Detection</h3>
+        <div style="display: flex; justify-content: center; position:absolute">
+            <video id="video" autoplay muted
+                width = "600"
+                height = "500"
+                style="border: 1px solid grey;"
+            ></video>
+        </div>
+        
+    </div>
+    <hr />
+    <div style="width: 100%;">
+        <h4 style="text-align: center;">Output Video - Blur Detection</h4>
+        <div style="display: flex; justify-content: center;">
+            <canvas 
+                id="canvasOutput" 
+                width="600"
+                style="border: 1px solid grey;"
+            ></canvas>
+        </div>
+    </div>
+</body>
+
+
+</html>
