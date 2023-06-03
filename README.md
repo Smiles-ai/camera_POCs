@@ -10,4 +10,6 @@
 
 ## Teeth Detection: https://mp-teeth-detection-v1.web.app/test.html
 
+## Teeth Detection (with logs): https://mp-teeth-log.web.app/
+
 All in one: https://cv-mediapipe-all-v1.web.app/test.html
